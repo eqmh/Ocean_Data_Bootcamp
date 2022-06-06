@@ -1,0 +1,39 @@
+name: "mbon-plankton"
+# exclude: ["survey imagery", "data", "docs/z_*"]
+navbar:
+  title: "MBON Plankton"
+  left:
+    - text: "Home"
+      icon: ion-android-home
+      href: index.html
+    - text: "Organizing Committee"
+      icon: ion-ios-people
+      href: committee.html
+    - text: "Workshop Participants"
+      icon: ion-ios-person
+      href: participants.html
+    - text: "Keynote Speakers"
+      icon: ion-ios-person
+      href: keynotes.html
+    - text: "Program"
+      icon: ion-hammer
+      href: programs.html
+    - text: "Workshop Reports"
+      icon: ion-hammer
+      href: reports.html
+      # menu:
+      #   - text: "1st Workshop"
+      #     href: workshop-1.html
+      #   - text: "2nd Workshop"
+      #     href: workshop-2.html
+output_dir: "docs"
+output:
+  html_document:
+    theme: cosmo
+    self_contained: false
+    lib_dir: docs/site_libs
+    highlight: textmate
+    include:
+      after_body: _includes/footer.html
+    css: styles.css
+include: [".nojekyll"]

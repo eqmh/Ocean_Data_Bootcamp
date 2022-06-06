@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Workshop Program</title>
+
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">MBON Plankton</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="ion ion-android-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="committee.html">
+    <span class="ion ion-ios-people"></span>
+     
+    Organizing Committee
+  </a>
+</li>
+<li>
+  <a href="participants.html">
+    <span class="ion ion-ios-person"></span>
+     
+    Workshop Participants
+  </a>
+</li>
+<li>
+  <a href="keynotes.html">
+    <span class="ion ion-ios-person"></span>
+     
+    Keynote Speakers
+  </a>
+</li>
+<li>
+  <a href="programs.html">
+    <span class="ion ion-hammer"></span>
+     
+    Program
+  </a>
+</li>
+<li>
+  <a href="reports.html">
+    <span class="ion ion-hammer"></span>
+     
+    Workshop Reports
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Workshop Program</h1>
+
+</div>
+
+
+<body>
+<h2>
+<div id="day-1-monday-november-9-2020-europe-usa" class="section level2">
+<h2><strong>DAY 1 – Monday November 9, 2020 (Europe, USA)</strong></h2>
+<p>Chair: Artur Palacz // Note taker: Selina Vage</p>
+<ul>
+<li>Bringing communities of practices together to build a global Marine Biodiversity Observation Network (MBON) in service of the global society - Enrique Montes</li>
+<li>Modeling diverse plankton communities: How is it done and what are we missing? – Fi Prowe and Chris Lindemann <br> <br></li>
+</ul>
+</div>
+<div id="day-2-tuesday-november-10-2020" class="section level2">
+<h2><strong>DAY 2 – Tuesday November 10, 2020</strong></h2>
+<p>Chair: Frank Muller- Karger // Note taker: Enrique Montes</p>
+<ul>
+<li>Breakout session 1 – Databases: what we have and what we would like</li>
+<li>Breakout session 2 – The Value of Plankton Ecosystem Functions <br> <br></li>
+</ul>
+</div>
+<div id="day-1-wednesday-october-13-2021-africa-europe-the-middle-east-india" class="section level2">
+<h2><strong>DAY 1 – Wednesday October 13, 2021 (Africa, Europe, The Middle East, India)</strong></h2>
+<p>Chair: Maria Grigoratou // Co-chairs &amp; note takers: Bingzhang Chen, Alice Soccodato</p>
+<ul>
+<li>From plankton to policy: Connecting ocean observations to decision making - Abigail McQuatters-Gollop</li>
+<li>Numerical modelling of marine plankton ecosystems- Mechanistic models at the global ocean scale - Sergio Vallina <br> <br></li>
+</ul>
+</div>
+<div id="day-2---thursday-october-14-2021" class="section level2">
+<h2><strong>DAY 2 - Thursday October 14, 2021</strong></h2>
+<p>Chair: Alice Soccodato // Co-chair &amp; note taker: Maria Grigoratou</p>
+<ul>
+<li>Breakout session 1 – Databases: what we have and what we would like</li>
+<li>Breakout session 2 – The Value of Plankton Ecosystem Functions <br> <br></li>
+</ul>
+</div>
+<div id="day-1-wednesday-october-13-2021-america" class="section level2">
+<h2><strong>DAY 1 – Wednesday October 13, 2021 (America)</strong></h2>
+<p>Chair: Enrique Montes // Co-chair &amp; note taker: Maria Grigoratou</p>
+<ul>
+<li>Marine observation efforts in the SW Atlantic Ocean - Celeste López-Abbate</li>
+<li>Data and approaches for lower trophic level diversity on the Canadian northwest Atlantic shelves - Catherine Johnson</li>
+<li>Modeling diverse plankton communities – How is it done and what are we missing? - Esteban Acevedo-Trejos <br> <br></li>
+</ul>
+</div>
+<div id="day-2---thursday-october-14-2021-1" class="section level2">
+<h2><strong>DAY 2 - Thursday October 14, 2021</strong></h2>
+<p>Chair: Frank Muller- Karger // Co-chair &amp; note taker: Esteban Acevedo- Trejos</p>
+<ul>
+<li>Breakout session 1 – Databases: what we have and what we would like</li>
+<li>Breakout session 2 – The Value of Plankton Ecosystem Functions <br> <br></li>
+</ul>
+</div>
+<div id="day-1-wednesday-november-3-2021-plankton-in-policy-how-can-we-best-use-plankton-to-inform-ecosystem-assessments" class="section level2">
+<h2><strong>DAY 1 – Wednesday, November 3, 2021: Plankton in policy: How can we best use plankton to inform ecosystem assessments?</strong></h2>
+<ul>
+<li>Discussion of the value of plankton (ecological, biogeochemical, economic, recreational) <br> <br></li>
+<li>Plankton Essential Ocean Variables (EOVs) and ecosystem assessments - Anthony Richardson, Lavenia Ratnaraj and Ana Lara-Lopez</li>
+</ul>
+<p>- What are ecosystem assessments?</p>
+<p>- Plankton EOVs – biomass and diversity</p>
+<p>- Case studies that include plankton in ecosystem assessments</p>
+<p>- How might be we best use plankton as EOVs?</p>
+<p>- What are we using plankton indicators for?</p>
+<p>- What examples do we have of using plankton indicators from different parts of the world?</p>
+<p>- How can we move plankton EOVs forward? <br> <br></p>
+</div>
+<div id="day-2-thursday-november-4-2021-plankton-in-management-how-can-we-best-use-plankton-in-models" class="section level2">
+<h2><strong>DAY 2 – Thursday November 4, 2021: Plankton in management: How can we best use plankton in models?</strong></h2>
+<ul>
+<li>What are the main types of plankton data and their limitations? - Jason Everett</li>
+<li>Plankton in models - Heidi Pethybridge, Jenny Skerratt, Tyler Rohr</li>
+<li>Approaches to standardising plankton data for use in models - Anthony Richardson:</li>
+</ul>
+<p>Use of conversions; Use of statistical models</p>
+<ul>
+<li><p>Making plankton data more useful for modelling</p></li>
+<li><p>What examples do we have of using plankton data in models from different parts of the world?</p></li>
+<li><p>How can we improve conversion tables/equations?</p></li>
+<li><p>What are the different ways in which we can validate model output using plankton data?</p></li>
+<li><p>How can we stimulate plankton uptake in models?</p></li>
+</ul>
+<h2>
+</body>
+<p><br></p>
+</div>
+
+<div class="footer text-center">
+  © 2021 <img width="100px" src="images/mbon.jpg"/>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

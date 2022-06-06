@@ -1,0 +1,101 @@
+---
+title: "Workshop Program"
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+```
+
+<body>
+
+<h2>
+
+## **DAY 1 -- Monday November 9, 2020 (Europe, USA)**
+
+Chair: Artur Palacz // Note taker: Selina Vage
+
+-   Bringing communities of practices together to build a global Marine Biodiversity Observation Network (MBON) in service of the global society - Enrique Montes
+-   Modeling diverse plankton communities: How is it done and what are we missing? -- Fi Prowe and Chris Lindemann <br> <br>
+
+## **DAY 2 -- Tuesday November 10, 2020** 
+
+Chair: Frank Muller- Karger // Note taker: Enrique Montes
+
+-   Breakout session 1 -- Databases: what we have and what we would like
+-   Breakout session 2 -- The Value of Plankton Ecosystem Functions <br> <br>
+
+## **DAY 1 -- Wednesday October 13, 2021 (Africa, Europe, The Middle East, India)**
+
+Chair: Maria Grigoratou // Co-chairs & note takers: Bingzhang Chen, Alice Soccodato
+
+-   From plankton to policy: Connecting ocean observations to decision making - Abigail McQuatters-Gollop
+-   Numerical modelling of marine plankton ecosystems- Mechanistic models at the global ocean scale - Sergio Vallina <br> <br>
+
+## **DAY 2 - Thursday October 14, 2021**
+
+Chair: Alice Soccodato // Co-chair & note taker: Maria Grigoratou
+
+-   Breakout session 1 -- Databases: what we have and what we would like
+-   Breakout session 2 -- The Value of Plankton Ecosystem Functions <br> <br>
+
+## **DAY 1 -- Wednesday October 13, 2021 (America)**
+
+Chair: Enrique Montes // Co-chair & note taker: Maria Grigoratou
+
+-   Marine observation efforts in the SW Atlantic Ocean - Celeste López-Abbate
+-   Data and approaches for lower trophic level diversity on the Canadian northwest Atlantic shelves - Catherine Johnson
+-   Modeling diverse plankton communities -- How is it done and what are we missing? - Esteban Acevedo-Trejos <br> <br>
+
+## **DAY 2 - Thursday October 14, 2021**
+
+Chair: Frank Muller- Karger // Co-chair & note taker: Esteban Acevedo- Trejos
+
+-   Breakout session 1 -- Databases: what we have and what we would like
+-   Breakout session 2 -- The Value of Plankton Ecosystem Functions <br> <br>
+
+## **DAY 1 -- Wednesday, November 3, 2021: Plankton in policy: How can we best use plankton to inform ecosystem assessments?**
+
+-   Discussion of the value of plankton (ecological, biogeochemical, economic, recreational) <br> <br>
+-   Plankton Essential Ocean Variables (EOVs) and ecosystem assessments - Anthony Richardson, Lavenia Ratnaraj and Ana Lara-Lopez
+
+\- What are ecosystem assessments?
+
+\- Plankton EOVs -- biomass and diversity
+
+\- Case studies that include plankton in ecosystem assessments
+
+\- How might be we best use plankton as EOVs?
+
+\- What are we using plankton indicators for?
+
+\- What examples do we have of using plankton indicators from different parts of the world?
+
+\- How can we move plankton EOVs forward?
+<br> <br>
+
+## **DAY 2 -- Thursday November 4, 2021: Plankton in management: How can we best use plankton in models?**
+
+-   What are the main types of plankton data and their limitations? - Jason Everett
+-   Plankton in models - Heidi Pethybridge, Jenny Skerratt, Tyler Rohr
+-   Approaches to standardising plankton data for use in models - Anthony Richardson:
+
+Use of conversions; Use of statistical models
+
+-   Making plankton data more useful for modelling
+
+-   What examples do we have of using plankton data in models from different parts of the world?
+
+-   How can we improve conversion tables/equations?
+
+-   What are the different ways in which we can validate model output using plankton data?
+
+-   How can we stimulate plankton uptake in models?
+
+<h2>
+
+</body>
+
+<br>

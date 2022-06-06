@@ -1,0 +1,19 @@
+---
+title: "Keynote Speakers"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+library(tidyverse)
+library(readxl)
+library(knitr)
+```
+
+<img src="images/speakers.jpg" width="1000px"/>
+<br>
+<br>
+
+```{r}
+read_excel("docs/Affiliation_and_website.xlsx") %>%
+  kable()
+```

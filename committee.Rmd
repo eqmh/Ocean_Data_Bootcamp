@@ -1,0 +1,33 @@
+---
+title: "Organizing Committee"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+```
+<body>
+
+<h2>
+
+- [Esteban Acevedo-Trejos - GFZ Helmholtz Centre Potsdam](https://www.gfz-potsdam.de/en/staff/esteban-acevedo-trejos/sec47/)
+- [Clarissa Anderson - SCCOOS](https://cra002.scrippsprofiles.ucsd.edu/)
+- [Jason Everett - U. Queensland](https://jaseeverett.github.io/)
+- [Maria Grigoratou - GMRI](https://www.gmri.org/our-approach/staff/maria-grigoratou/)
+- [Chris Lindemann - U. Bergen](https://www.uib.no/en/persons/Christian.Lindemann)
+- [Enrique Montes - NOAA AOML](https://www.aoml.noaa.gov/oced-staff/)
+- [Frank Muller- Karger - U. South Florida](https://www.usf.edu/marine-science/faculty/faculty-directory/biological-oceanography/frank-muller-karger.aspx)
+- [Artur Palacz - IOCCP](https://www.researchgate.net/profile/Artur-Palacz)
+- [Fi Prowe - GEOMAR](https://www.geomar.de/fprowe)
+- [Renato Quinones - INACR](https://centroincar.cl/en/2020/06/24/dr-renato-quinones-bergeret/)
+- [Anthony Richardson - U. Queensland & CSIRO](https://mathmarecol.github.io/)
+- [Jeffrey Runge - U. Maine](https://umaine.edu/marine/people/jeffrey-runge/)
+- [Selina Vage - U. Bergen](https://www.uib.no/en/persons/Selina.V%C3%A5ge)
+- [Meike Vogt - ETH Zürich](https://uppeople.ethz.ch/MeikeVogt/)
+- [Soultana Zervoudaki - Hellenic Center for Marine Research](https://orcid.org/0000-0002-3499-8433)
+
+<h2>
+
+</body>
+
+<br>
+

@@ -1,0 +1,22 @@
+---
+title: "Workshop Reports"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+```
+
+<body>
+
+<h1>
+
+An overview of all workshops has been submitted as *Meeting Highlights* in the *Limnology & Oceanography Bulletin*.
+<br>
+<br>
+The report for the first MODIV-MBON workshop is available [here](MBON_MODIV_workshop_report.pdf)
+
+<img src="images/workshop_report.PNG" width="1000px"/>
+
+<h1>
+
+</body>

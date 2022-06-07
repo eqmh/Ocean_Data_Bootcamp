@@ -11,10 +11,10 @@
 
 
 
-<title>MBON Plankton Project</title>
+<title>Ocean Data Bootcamp - 11 a 14 de julho, 2022</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -58,6 +58,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,12 +238,12 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">MBON Plankton</a>
+      <a class="navbar-brand" href="index.html">Ocean Data Bootcamp</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -254,35 +258,28 @@ $(document).ready(function () {
   <a href="committee.html">
     <span class="ion ion-ios-people"></span>
      
-    Organizing Committee
+    Comitê Organizador
   </a>
 </li>
 <li>
   <a href="participants.html">
     <span class="ion ion-ios-person"></span>
      
-    Workshop Participants
+    Participantes
   </a>
 </li>
 <li>
   <a href="keynotes.html">
     <span class="ion ion-ios-person"></span>
      
-    Keynote Speakers
+    Palestrantes
   </a>
 </li>
 <li>
   <a href="programs.html">
     <span class="ion ion-hammer"></span>
      
-    Program
-  </a>
-</li>
-<li>
-  <a href="reports.html">
-    <span class="ion ion-hammer"></span>
-     
-    Workshop Reports
+    Programa
   </a>
 </li>
       </ul>
@@ -297,45 +294,105 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">MBON Plankton Project</h1>
+<h1 class="title toc-ignore">Ocean Data Bootcamp - 11 a 14 de julho,
+2022</h1>
 
 </div>
 
 
-<div id="marine-biodiversity-observation-network-mbon" class="section level2">
-<h2><a href="https://marinebon.org/">Marine Biodiversity Observation Network (MBON)</a></h2>
+<div id="gestão-de-dados-de-monitoramento-costeiro"
+class="section level2">
+<h2><strong>Gestão de dados de monitoramento costeiro</strong></h2>
 <body>
 <h3>
-<p>Much life in the sea depends on plankton diversity and production. As the ocean changes, the many ecosystem functions of plankton - their biodiversity, distribution, nutrient and carbon flows, timing of life stages and blooms - change in ways that also alter ecosystem services that other organisms, including humans, depend on. There is a need to better understand and predict how these ecosystem functions of the plankton community change on different time scales. Justifying comprehensive regional and global studies of the role of plankton biodiversity and ecosystem function will require understanding the importance of plankton in an ecosystem services framework.</p>
+<p>À medida que enfrentamos os desafios presentes e futuros da
+sustentabilidade, os observatórios do Oceano têm produzido uma grande
+quantidade de dados com o objetivo de monitorar a saúde e o estado dos
+ecossistemas marinhos. Atualmente, apenas uma pequena parte desses dados
+é utilizada na geração de informações e conhecimento para sociedade, e
+menos ainda é efetivamente aplicado para tomar decisões baseadas na
+natureza. Para melhorar este cenário, é fundamental adotar boas práticas
+de gestão de dados, desde a aquisição em campo até o compartilhamento
+das informações para os usuários.</p>
 </h3>
 </body>
 <p><img src="images/plankton_art.png" width="1000px"/></p>
 <body>
 <h3>
-<p><a href="https://marinebon.org/" target="_blank">MBON</a> with the support of <a href="https://modiv.w.uib.no/" target="_blank">MODIV</a> organized four virtual workshops in November 2020, October and November 2021 titled: “Plankton ecosystem function, biodiversity, and forecasting - research requirements and applications”.</p>
-<p>The workshops brought scientists together to provide an overview of the state-of-the-art of field, lab and modelling approaches used to study plankton biodiversity and discuss data needs to improve our understanding of the value of plankton, its functions and ecosystem services.</p>
+<p>O OCEAN DATA BOOTCAMP vai reunir especialistas em Oceanografia,
+Ecologia, Ciências Ambientais, Biodiversidade e Ciência de dados para
+discutir os recentes esforços globais para construção de sistemas
+digitais, ampliação do acesso aos dados e ferramentas de automatização
+de análises ambientais sobre os ecossistemas costeiros e a vida marinha.
+O evento terá o objetivo de capacitar profissionais para gestão e
+análise de dados e informações do Oceano, incluindo os temas de
+padronização, terminologia, curadoria, controle de qualidade,
+processamento, armazenamento e di- vulgação. Um dos focos do evento
+serão as redes de observação de longo prazo (PELD, ReBentos, Rede Clima,
+INCTs, <a href="https://marinebon.org/" target="_blank">MBON</a>, <a
+href="https://www.goosocean.org/" target="_blank">GOOS</a>), a
+integração entre dados da biodiversidade marinha aos produtos de
+sensoriamento remoto por satélite e aplicações da bioinformática.</p>
 </h3>
 </body>
 <p><br></p>
 </div>
-<div id="october-2021" class="section level2">
-<h2>October 2021</h2>
-<p><img src="images/screenshot1.jpg" width="1000px"/> <br> <img src="images/screenshot2.jpg" width="1000px"/></p>
-</div>
-<div id="november-2021" class="section level2">
-<h2>November 2021</h2>
-<p><img src="images/screenshot3.jpg" width="1000px"/></p>
+<div id="objetivos-principais" class="section level2">
+<h2><strong>Objetivos principais</strong></h2>
+<body>
 <h3>
-<p>As next steps the participants decided to develop and publish:</p>
-<ol style="list-style-type: decimal">
-<li><p>A synthesis paper on the current limitations in data collection, analysis and accessibility, recommendations to overcome them, and ways to create common standards for data harmonization. This will allow to align multiple research tools and approaches, data, methods, protocols and knowledge to improve ecological forecasting. This alignment is important to meet the goals of the UN Decade of Ocean Science for Sustainable Development (the Ocean Decade) through programs like Marine Life 2030, Digital Twins of the Ocean - DITTO, and Ocean Practices for the Decade.</p></li>
-<li><p>A perspective paper on the value of plankton, written by a coalition of peers from diverse fields (oceanography, education, economics, art, citizen science).</p></li>
-</ol>
-<p>For more information please contact Dr. Maria Grigoratou (<a href="mailto:maria.grigoratou1@gmail.com" class="email">maria.grigoratou1@gmail.com</a>).</p>
+<p>Fomentar a discussão sobre os avanços dos sistemas e ferramentas
+digitais para monitoramento da biodiversidade marinha Capacitar os
+participantes para gestão e análise de dados e informações do
+oceano.</p>
 </h3>
 </body>
-<p><br> ## Sponsored by:</p>
-<p><img src="images/mbon.jpg" width="1000px"/></p>
+<p><br></p>
+</div>
+<div id="conteúdo-das-atividades" class="section level2">
+<h2><strong>Conteúdo das atividades</strong></h2>
+<body>
+<h3>
+<ol style="list-style-type: decimal">
+<li>Protocolos de monitoramento costeiro - implementação, manutenção,
+articulação de rede de colaboradores e produtos; <br></li>
+<li>Sistemas digitais e ferramentas de gestão de dados do oceano e da
+biodiversidade marinha - planejamento, curadoria, controle de qualidade,
+armazenamento, análise e visualização de dados; <br></li>
+<li>Bancos de dados de sensoriamento remoto por satélite -
+caracterização costeira, classificação de paisagens marinhas e
+previsões; <br></li>
+<li>Automatização da análise de dados e imagens por aplicações digitais
+de machine learning e códigos abertos.</li>
+</ol>
+</h3>
+</body>
+<p><br></p>
+</div>
+<div id="localização" class="section level2">
+<h2><strong>Localização</strong></h2>
+<body>
+<h3>
+<p>Vitória/ES Universidade Federal do Espírito Santo</p>
+</h3>
+</body>
+<p><br></p>
+</div>
+<div id="participação" class="section level2">
+<h2><strong>Participação</strong></h2>
+<body>
+<h3>
+<p>Será um encontro em formato presencial para convidados e algumas
+vagas para candidatura aberta, para os observatórios de longo-prazo.</p>
+<p>Link de inscrição: <a href="https://forms.gle/QQQdd69g4QtSyLSW9"
+class="uri">https://forms.gle/QQQdd69g4QtSyLSW9</a></p>
+</h3>
+</body>
+<p><br></p>
+</div>
+<div id="sponsored-by" class="section level2">
+<h2>Sponsored by:</h2>
+<p><img src="images/sponsors.jpg" width="1000px"/></p>
 </div>
 
 <div class="footer text-center">

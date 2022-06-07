@@ -9,30 +9,20 @@ library(readxl)
 library(knitr)
 ```
 
-## List of Participants (Alphabetically) – November 2020 (Europe, USA)
+## Lista de Participantes (alfabeticamente) - em construção
+
+</h3>
+
+</body>
+
+<img src="images/divers.JPEG" width="1000px"/>
+
+<body>
+
+<br> <br>
 
 ```{r}
-read_excel("docs/participants_Nov2020.xlsx") %>%
-  kable()
+# read_excel("docs/participants_Nov2020.xlsx") %>%
+#   kable()
 ```
 
-## List of Participants (Alphabetically) – October 2021 (America)
-
-```{r}
-read_excel("docs/participants_Oct2021.xlsx") %>%
-  kable()
-```
-
-## List of Participants (Alphabetically) – October 2021 (Africa, Europe, Middle East, India)
-
-```{r}
-read_excel("docs/participants_Oct2021-2.xlsx") %>%
-  kable()
-```
-
-## List of Participants (Alphabetically) – November 2021 (East Asia, Oceania)
-
-```{r}
-read_excel("docs/participants_Nov2021.xlsx") %>%
-  kable()
-```

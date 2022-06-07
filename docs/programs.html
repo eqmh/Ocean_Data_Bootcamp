@@ -11,10 +11,10 @@
 
 
 
-<title>Workshop Program</title>
+<title>Agenda</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -58,6 +58,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,12 +238,12 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">MBON Plankton</a>
+      <a class="navbar-brand" href="index.html">Ocean Data Bootcamp</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -254,35 +258,28 @@ $(document).ready(function () {
   <a href="committee.html">
     <span class="ion ion-ios-people"></span>
      
-    Organizing Committee
+    Comitê Organizador
   </a>
 </li>
 <li>
   <a href="participants.html">
     <span class="ion ion-ios-person"></span>
      
-    Workshop Participants
+    Participantes
   </a>
 </li>
 <li>
   <a href="keynotes.html">
     <span class="ion ion-ios-person"></span>
      
-    Keynote Speakers
+    Palestrantes
   </a>
 </li>
 <li>
   <a href="programs.html">
     <span class="ion ion-hammer"></span>
      
-    Program
-  </a>
-</li>
-<li>
-  <a href="reports.html">
-    <span class="ion ion-hammer"></span>
-     
-    Workshop Reports
+    Programa
   </a>
 </li>
       </ul>
@@ -297,90 +294,68 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Workshop Program</h1>
+<h1 class="title toc-ignore">Agenda</h1>
 
 </div>
 
 
+</h3>
+</body>
+<p><img src="images/survey.jpeg" width="1000px"/></p>
 <body>
+<p><br> <br></p>
 <h2>
-<div id="day-1-monday-november-9-2020-europe-usa" class="section level2">
-<h2><strong>DAY 1 – Monday November 9, 2020 (Europe, USA)</strong></h2>
-<p>Chair: Artur Palacz // Note taker: Selina Vage</p>
+<div id="de-julho" class="section level2">
+<h2><strong>11 de julho</strong></h2>
 <ul>
-<li>Bringing communities of practices together to build a global Marine Biodiversity Observation Network (MBON) in service of the global society - Enrique Montes</li>
-<li>Modeling diverse plankton communities: How is it done and what are we missing? – Fi Prowe and Chris Lindemann <br> <br></li>
+<li>Protocolos de monitoramento costeiro - implementação, manutenção,
+articulação de rede de colaboradores e produtos.</li>
+<li>Exercício prático para desenvolvimento de fluxo de dados do campo à
+nuvem (metodologia <a href="https://marinebon.org/p2p/index.html">MBON
+Pole to Pole</a>).</li>
+<li>Redes de observação marinhas.<br />
+</li>
+<li>Sínteses da biodiversidade e biogeografia. <br> <br></li>
 </ul>
 </div>
-<div id="day-2-tuesday-november-10-2020" class="section level2">
-<h2><strong>DAY 2 – Tuesday November 10, 2020</strong></h2>
-<p>Chair: Frank Muller- Karger // Note taker: Enrique Montes</p>
+<div id="de-julho-1" class="section level2">
+<h2><strong>12 de julho</strong></h2>
 <ul>
-<li>Breakout session 1 – Databases: what we have and what we would like</li>
-<li>Breakout session 2 – The Value of Plankton Ecosystem Functions <br> <br></li>
+<li>Sistemas digitais e ferramentas de gestão de dados do oceano e da
+biodiversidade marinha - planejamento, curadoria, controle de qualidade,
+armazenamento, análise e visualização de dados.</li>
+<li>Exercício prático sobre o uso do esquema Darwin Core para
+padronização de séries temporais de biodiversidade marinha e uso dos
+pipelines do OBIS para compartilhamento e análise de dados da
+biodiversidade marinha.</li>
+<li>Gestão de bancos de dados do Oceano.</li>
+<li>Desafios da digitalização. <br> <br></li>
 </ul>
 </div>
-<div id="day-1-wednesday-october-13-2021-africa-europe-the-middle-east-india" class="section level2">
-<h2><strong>DAY 1 – Wednesday October 13, 2021 (Africa, Europe, The Middle East, India)</strong></h2>
-<p>Chair: Maria Grigoratou // Co-chairs &amp; note takers: Bingzhang Chen, Alice Soccodato</p>
+<div id="de-julho-2" class="section level2">
+<h2><strong>13 de julho</strong></h2>
 <ul>
-<li>From plankton to policy: Connecting ocean observations to decision making - Abigail McQuatters-Gollop</li>
-<li>Numerical modelling of marine plankton ecosystems- Mechanistic models at the global ocean scale - Sergio Vallina <br> <br></li>
+<li>Bancos de dados de sensoriamento remoto por satélite -
+caracterização costeira, classificação de paisagens marinhas e
+previsões.</li>
+<li>Exercício prático para obtenção de séries de dados do oceano em
+plataformas geoespaciais e de sensoriamento remoto por satélite.</li>
+<li>Aplicações de produtos de sensoriamento remoto por satélite para
+monitoramento e conservação.</li>
+<li>Indicadores ecossistêmicos e climáticos para tomada de decisão. <br>
+<br></li>
 </ul>
 </div>
-<div id="day-2---thursday-october-14-2021" class="section level2">
-<h2><strong>DAY 2 - Thursday October 14, 2021</strong></h2>
-<p>Chair: Alice Soccodato // Co-chair &amp; note taker: Maria Grigoratou</p>
+<div id="de-julho-3" class="section level2">
+<h2><strong>14 de julho</strong></h2>
 <ul>
-<li>Breakout session 1 – Databases: what we have and what we would like</li>
-<li>Breakout session 2 – The Value of Plankton Ecosystem Functions <br> <br></li>
-</ul>
-</div>
-<div id="day-1-wednesday-october-13-2021-america" class="section level2">
-<h2><strong>DAY 1 – Wednesday October 13, 2021 (America)</strong></h2>
-<p>Chair: Enrique Montes // Co-chair &amp; note taker: Maria Grigoratou</p>
-<ul>
-<li>Marine observation efforts in the SW Atlantic Ocean - Celeste López-Abbate</li>
-<li>Data and approaches for lower trophic level diversity on the Canadian northwest Atlantic shelves - Catherine Johnson</li>
-<li>Modeling diverse plankton communities – How is it done and what are we missing? - Esteban Acevedo-Trejos <br> <br></li>
-</ul>
-</div>
-<div id="day-2---thursday-october-14-2021-1" class="section level2">
-<h2><strong>DAY 2 - Thursday October 14, 2021</strong></h2>
-<p>Chair: Frank Muller- Karger // Co-chair &amp; note taker: Esteban Acevedo- Trejos</p>
-<ul>
-<li>Breakout session 1 – Databases: what we have and what we would like</li>
-<li>Breakout session 2 – The Value of Plankton Ecosystem Functions <br> <br></li>
-</ul>
-</div>
-<div id="day-1-wednesday-november-3-2021-plankton-in-policy-how-can-we-best-use-plankton-to-inform-ecosystem-assessments" class="section level2">
-<h2><strong>DAY 1 – Wednesday, November 3, 2021: Plankton in policy: How can we best use plankton to inform ecosystem assessments?</strong></h2>
-<ul>
-<li>Discussion of the value of plankton (ecological, biogeochemical, economic, recreational) <br> <br></li>
-<li>Plankton Essential Ocean Variables (EOVs) and ecosystem assessments - Anthony Richardson, Lavenia Ratnaraj and Ana Lara-Lopez</li>
-</ul>
-<p>- What are ecosystem assessments?</p>
-<p>- Plankton EOVs – biomass and diversity</p>
-<p>- Case studies that include plankton in ecosystem assessments</p>
-<p>- How might be we best use plankton as EOVs?</p>
-<p>- What are we using plankton indicators for?</p>
-<p>- What examples do we have of using plankton indicators from different parts of the world?</p>
-<p>- How can we move plankton EOVs forward? <br> <br></p>
-</div>
-<div id="day-2-thursday-november-4-2021-plankton-in-management-how-can-we-best-use-plankton-in-models" class="section level2">
-<h2><strong>DAY 2 – Thursday November 4, 2021: Plankton in management: How can we best use plankton in models?</strong></h2>
-<ul>
-<li>What are the main types of plankton data and their limitations? - Jason Everett</li>
-<li>Plankton in models - Heidi Pethybridge, Jenny Skerratt, Tyler Rohr</li>
-<li>Approaches to standardising plankton data for use in models - Anthony Richardson:</li>
-</ul>
-<p>Use of conversions; Use of statistical models</p>
-<ul>
-<li><p>Making plankton data more useful for modelling</p></li>
-<li><p>What examples do we have of using plankton data in models from different parts of the world?</p></li>
-<li><p>How can we improve conversion tables/equations?</p></li>
-<li><p>What are the different ways in which we can validate model output using plankton data?</p></li>
-<li><p>How can we stimulate plankton uptake in models?</p></li>
+<li>Automatização da análise de dados e imagens por aplicações digitais
+de machine learning e códigos abertos.</li>
+<li>Exercício prático com análise de bigdata com imagens marinhas e
+eDNA.</li>
+<li>Monitoramento costeiro no setor privado e ciência cidadã e
+incorporação de avanços científicos.</li>
+<li>Ampliação do alcance e usuários. <br> <br></li>
 </ul>
 <h2>
 </body>
@@ -388,7 +363,7 @@ $(document).ready(function () {
 </div>
 
 <div class="footer text-center">
-  © 2021 <img width="100px" src="images/mbon.jpg"/>
+  © 2022 <img width="100px" src="images/mbon.jpg"/>
 </div>
 
 

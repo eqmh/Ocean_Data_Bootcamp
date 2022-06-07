@@ -1,5 +1,5 @@
 ---
-title: "Workshop Program"
+title: "Agenda"
 editor_options: 
   markdown: 
     wrap: sentence
@@ -9,90 +9,45 @@ editor_options:
 knitr::opts_chunk$set(echo = F, message = F, warning = F)
 ```
 
+</h3>
+
+</body>
+
+<img src="images/survey.JPEG" width="1000px"/>
+
 <body>
+
+<br> <br>
 
 <h2>
 
-## **DAY 1 -- Monday November 9, 2020 (Europe, USA)**
+## **11 de julho**
 
-Chair: Artur Palacz // Note taker: Selina Vage
+-   Protocolos de monitoramento costeiro - implementação,  manutenção, articulação de rede de colaboradores e produtos.
+-   Exercício prático para desenvolvimento de fluxo de dados do  campo à nuvem (metodologia [MBON Pole to Pole](https://marinebon.org/p2p/index.html)). 
+-   Redes de observação marinhas.  
+-   Sínteses da biodiversidade e biogeografia. <br> <br>
 
--   Bringing communities of practices together to build a global Marine Biodiversity Observation Network (MBON) in service of the global society - Enrique Montes
--   Modeling diverse plankton communities: How is it done and what are we missing? -- Fi Prowe and Chris Lindemann <br> <br>
+## **12 de julho** 
 
-## **DAY 2 -- Tuesday November 10, 2020** 
+-   Sistemas digitais e ferramentas de gestão de dados do  oceano e da biodiversidade marinha - planejamento, curadoria, controle de  qualidade, armazenamento, análise e visualização de dados.
+-   Exercício prático sobre o uso do esquema Darwin Core para  padronização de séries temporais de biodiversidade marinha e uso dos pipelines do  OBIS para compartilhamento e análise de dados da biodiversidade marinha.
+-   Gestão de bancos de dados do Oceano. 
+-   Desafios da digitalização. <br> <br>
 
-Chair: Frank Muller- Karger // Note taker: Enrique Montes
+## **13 de julho**
 
--   Breakout session 1 -- Databases: what we have and what we would like
--   Breakout session 2 -- The Value of Plankton Ecosystem Functions <br> <br>
+-   Bancos de dados de sensoriamento remoto por satélite -  caracterização costeira, classificação de paisagens marinhas e previsões.
+-   Exercício prático para obtenção de séries de dados do oceano  em plataformas geoespaciais e de sensoriamento remoto por satélite. 
+-   Aplicações de produtos de sensoriamento remoto por satélite para  monitoramento e conservação. 
+-   Indicadores ecossistêmicos e climáticos para tomada de decisão. <br> <br>
 
-## **DAY 1 -- Wednesday October 13, 2021 (Africa, Europe, The Middle East, India)**
+## **14 de julho**
 
-Chair: Maria Grigoratou // Co-chairs & note takers: Bingzhang Chen, Alice Soccodato
-
--   From plankton to policy: Connecting ocean observations to decision making - Abigail McQuatters-Gollop
--   Numerical modelling of marine plankton ecosystems- Mechanistic models at the global ocean scale - Sergio Vallina <br> <br>
-
-## **DAY 2 - Thursday October 14, 2021**
-
-Chair: Alice Soccodato // Co-chair & note taker: Maria Grigoratou
-
--   Breakout session 1 -- Databases: what we have and what we would like
--   Breakout session 2 -- The Value of Plankton Ecosystem Functions <br> <br>
-
-## **DAY 1 -- Wednesday October 13, 2021 (America)**
-
-Chair: Enrique Montes // Co-chair & note taker: Maria Grigoratou
-
--   Marine observation efforts in the SW Atlantic Ocean - Celeste López-Abbate
--   Data and approaches for lower trophic level diversity on the Canadian northwest Atlantic shelves - Catherine Johnson
--   Modeling diverse plankton communities -- How is it done and what are we missing? - Esteban Acevedo-Trejos <br> <br>
-
-## **DAY 2 - Thursday October 14, 2021**
-
-Chair: Frank Muller- Karger // Co-chair & note taker: Esteban Acevedo- Trejos
-
--   Breakout session 1 -- Databases: what we have and what we would like
--   Breakout session 2 -- The Value of Plankton Ecosystem Functions <br> <br>
-
-## **DAY 1 -- Wednesday, November 3, 2021: Plankton in policy: How can we best use plankton to inform ecosystem assessments?**
-
--   Discussion of the value of plankton (ecological, biogeochemical, economic, recreational) <br> <br>
--   Plankton Essential Ocean Variables (EOVs) and ecosystem assessments - Anthony Richardson, Lavenia Ratnaraj and Ana Lara-Lopez
-
-\- What are ecosystem assessments?
-
-\- Plankton EOVs -- biomass and diversity
-
-\- Case studies that include plankton in ecosystem assessments
-
-\- How might be we best use plankton as EOVs?
-
-\- What are we using plankton indicators for?
-
-\- What examples do we have of using plankton indicators from different parts of the world?
-
-\- How can we move plankton EOVs forward?
-<br> <br>
-
-## **DAY 2 -- Thursday November 4, 2021: Plankton in management: How can we best use plankton in models?**
-
--   What are the main types of plankton data and their limitations? - Jason Everett
--   Plankton in models - Heidi Pethybridge, Jenny Skerratt, Tyler Rohr
--   Approaches to standardising plankton data for use in models - Anthony Richardson:
-
-Use of conversions; Use of statistical models
-
--   Making plankton data more useful for modelling
-
--   What examples do we have of using plankton data in models from different parts of the world?
-
--   How can we improve conversion tables/equations?
-
--   What are the different ways in which we can validate model output using plankton data?
-
--   How can we stimulate plankton uptake in models?
+-   Automatização da análise de dados e imagens por  aplicações digitais de machine learning e códigos abertos.
+-   Exercício prático com análise de bigdata com imagens  marinhas e eDNA. 
+-   Monitoramento costeiro no setor privado e ciência cidadã e incorporação de avanços científicos. 
+-   Ampliação do alcance e usuários. <br> <br>
 
 <h2>
 

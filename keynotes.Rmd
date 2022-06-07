@@ -1,5 +1,5 @@
 ---
-title: "Keynote Speakers"
+title: "Palestrantes"
 ---
 
 ```{r setup, include=FALSE}
@@ -9,11 +9,13 @@ library(readxl)
 library(knitr)
 ```
 
-<img src="images/speakers.jpg" width="1000px"/>
+## Palestrantes Convidados (alfabeticamente) - em construção
+
+<img src="images/mangroves.JPEG" width="1000px"/>
 <br>
 <br>
 
 ```{r}
-read_excel("docs/Affiliation_and_website.xlsx") %>%
-  kable()
+# read_excel("docs/Affiliation_and_website.xlsx") %>%
+#   kable()
 ```

@@ -1,5 +1,5 @@
 ---
-title: "Workshop Participants"
+title: "Participantes"
 ---
 
 ```{r setup, include=FALSE}

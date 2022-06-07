@@ -11,10 +11,10 @@
 
 
 
-<title>Keynote Speakers</title>
+<title>Palestrantes</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -58,6 +58,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,12 +238,12 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">MBON Plankton</a>
+      <a class="navbar-brand" href="index.html">Ocean Data Bootcamp</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -254,35 +258,28 @@ $(document).ready(function () {
   <a href="committee.html">
     <span class="ion ion-ios-people"></span>
      
-    Organizing Committee
+    Comitê Organizador
   </a>
 </li>
 <li>
   <a href="participants.html">
     <span class="ion ion-ios-person"></span>
      
-    Workshop Participants
+    Participantes
   </a>
 </li>
 <li>
   <a href="keynotes.html">
     <span class="ion ion-ios-person"></span>
      
-    Keynote Speakers
+    Palestrantes
   </a>
 </li>
 <li>
   <a href="programs.html">
     <span class="ion ion-hammer"></span>
      
-    Program
-  </a>
-</li>
-<li>
-  <a href="reports.html">
-    <span class="ion ion-hammer"></span>
-     
-    Workshop Reports
+    Programa
   </a>
 </li>
       </ul>
@@ -297,123 +294,19 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Keynote Speakers</h1>
+<h1 class="title toc-ignore">Palestrantes</h1>
 
 </div>
 
 
-<p><img src="images/speakers.jpg" width="1000px"/> <br> <br></p>
-<table>
-<colgroup>
-<col width="9%" />
-<col width="52%" />
-<col width="23%" />
-<col width="14%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th align="left">Name</th>
-<th align="left">Affiliation</th>
-<th align="left">Website</th>
-<th align="left">Email</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Enrique Montes</td>
-<td align="left">NOAA AOML</td>
-<td align="left"><a href="https://www.aoml.noaa.gov/ocean-chemistry-ecosystems-division/" class="uri">https://www.aoml.noaa.gov/ocean-chemistry-ecosystems-division/</a></td>
-<td align="left"><a href="mailto:enrique.montes@noaa.gov" class="email">enrique.montes@noaa.gov</a></td>
-</tr>
-<tr class="even">
-<td align="left">Celeste López-Abbate</td>
-<td align="left">Instituto Argentino de Oceanografía (IADO), Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET). B8000FWB, Bahía Blanca, Argentina</td>
-<td align="left"><a href="https://iado.conicet.gov.ar/" class="uri">https://iado.conicet.gov.ar/</a></td>
-<td align="left"><a href="mailto:mclabbate@iado-conicet.gob.ar" class="email">mclabbate@iado-conicet.gob.ar</a></td>
-</tr>
-<tr class="odd">
-<td align="left">Abigail. McQuatters-Gollop</td>
-<td align="left">University of Plymouth</td>
-<td align="left"><a href="https://www.plymouth.ac.uk/plankton-policy" class="uri">https://www.plymouth.ac.uk/plankton-policy</a></td>
-<td align="left"><a href="mailto:abigail.mcquatters-gollop@plymouth.ac.uk" class="email">abigail.mcquatters-gollop@plymouth.ac.uk</a></td>
-</tr>
-<tr class="even">
-<td align="left">Sergio M. Vallina</td>
-<td align="left">IEO – CSIC</td>
-<td align="left"><a href="https://oceanglobe.org/" class="uri">https://oceanglobe.org/</a></td>
-<td align="left"><a href="mailto:sergio.vallina@ieo.es" class="email">sergio.vallina@ieo.es</a></td>
-</tr>
-<tr class="odd">
-<td align="left">Anthony J. Richardson</td>
-<td align="left">UQ/CSIRO</td>
-<td align="left"><a href="https://mathmarecol.github.io/" class="uri">https://mathmarecol.github.io/</a></td>
-<td align="left"><a href="mailto:anthony.richardson@csiro.au" class="email">anthony.richardson@csiro.au</a></td>
-</tr>
-<tr class="even">
-<td align="left">Tyler W. Rohr</td>
-<td align="left">AAPP</td>
-<td align="left"><a href="https://aappartnership.org.au/our-researchers/" class="uri">https://aappartnership.org.au/our-researchers/</a></td>
-<td align="left"><a href="mailto:tyler.rohr@utas.edu.au" class="email">tyler.rohr@utas.edu.au</a></td>
-</tr>
-<tr class="odd">
-<td align="left">Heidi Pethybridge</td>
-<td align="left">CSIRO</td>
-<td align="left"><a href="https://people.csiro.au/P/H/Heidi-Pethybridge" class="uri">https://people.csiro.au/P/H/Heidi-Pethybridge</a></td>
-<td align="left"><a href="mailto:Heidi.Pethybridge@csiro.au" class="email">Heidi.Pethybridge@csiro.au</a></td>
-</tr>
-<tr class="even">
-<td align="left">Ana Lara-López</td>
-<td align="left">EuroGOOS</td>
-<td align="left"><a href="https://eurogoos.eu" class="uri">https://eurogoos.eu</a></td>
-<td align="left"><a href="mailto:ana.lara-lopez@eurogoos.eu" class="email">ana.lara-lopez@eurogoos.eu</a></td>
-</tr>
-<tr class="odd">
-<td align="left">Christian Lindemann</td>
-<td align="left">UiB</td>
-<td align="left"><a href="https://bio.uib.no/te/" class="uri">https://bio.uib.no/te/</a></td>
-<td align="left"><a href="mailto:chris.lindemann@uib.no" class="email">chris.lindemann@uib.no</a></td>
-</tr>
-<tr class="even">
-<td align="left">Friederike Prowe</td>
-<td align="left">GEOMAR</td>
-<td align="left"><a href="https://www.geomar.de/en/fprowe" class="uri">https://www.geomar.de/en/fprowe</a>, <a href="https://modiv.w.uib.no/" class="uri">https://modiv.w.uib.no/</a></td>
-<td align="left"><a href="mailto:fprowe.work@gmail.com" class="email">fprowe.work@gmail.com</a></td>
-</tr>
-<tr class="odd">
-<td align="left">Meike Vogt</td>
-<td align="left">ETH Zurich</td>
-<td align="left"><a href="https://uppeople.ethz.ch/MeikeVogt/" class="uri">https://uppeople.ethz.ch/MeikeVogt/</a></td>
-<td align="left"><a href="mailto:meike.vogt@env.ethz.ch" class="email">meike.vogt@env.ethz.ch</a></td>
-</tr>
-<tr class="even">
-<td align="left">Esteban Acevedo-Trejos</td>
-<td align="left">GFZ Potsdam</td>
-<td align="left"><a href="https://www.gfz-potsdam.de/en/staff/esteban-acevedo-trejos/sec47/" class="uri">https://www.gfz-potsdam.de/en/staff/esteban-acevedo-trejos/sec47/</a></td>
-<td align="left"><a href="mailto:esteban.acevedo.trejos@gfz-potsdam.de" class="email">esteban.acevedo.trejos@gfz-potsdam.de</a></td>
-</tr>
-<tr class="odd">
-<td align="left">Catherine Johnson</td>
-<td align="left">Fisheries and Oceans Canada</td>
-<td align="left"><a href="https://www.bio.gc.ca/index-en.php" class="uri">https://www.bio.gc.ca/index-en.php</a></td>
-<td align="left"><a href="mailto:catherine.johnson@dfo-mpo.gc.ca" class="email">catherine.johnson@dfo-mpo.gc.ca</a></td>
-</tr>
-<tr class="even">
-<td align="left">Lavenia Ratnarajah</td>
-<td align="left">GOOS</td>
-<td align="left">www.lavyratnarajah.com</td>
-<td align="left"><a href="mailto:l.ratnarajah@unesco.org" class="email">l.ratnarajah@unesco.org</a></td>
-</tr>
-<tr class="odd">
-<td align="left">Jason Everett</td>
-<td align="left">University of Queensland</td>
-<td align="left"><a href="https://jaseeverett.github.io" class="uri">https://jaseeverett.github.io</a></td>
-<td align="left"><a href="mailto:jason.everett@uq.edu.au" class="email">jason.everett@uq.edu.au</a></td>
-</tr>
-</tbody>
-</table>
+<div id="palestrantes-convidados-alfabeticamente---em-construção"
+class="section level2">
+<h2>Palestrantes Convidados (alfabeticamente) - em construção</h2>
+<p><img src="images/mangroves.jpeg" width="1000px"/> <br> <br></p>
+</div>
 
 <div class="footer text-center">
-  © 2021 <img width="100px" src="images/mbon.jpg"/>
+  © 2022 <img width="100px" src="images/mbon.jpg"/>
 </div>
 
 

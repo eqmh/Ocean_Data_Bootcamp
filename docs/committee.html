@@ -11,10 +11,10 @@
 
 
 
-<title>Organizing Committee</title>
+<title>Comitê Organizador</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -58,6 +58,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,12 +238,12 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">MBON Plankton</a>
+      <a class="navbar-brand" href="index.html">Ocean Data Bootcamp</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -254,35 +258,28 @@ $(document).ready(function () {
   <a href="committee.html">
     <span class="ion ion-ios-people"></span>
      
-    Organizing Committee
+    Comitê Organizador
   </a>
 </li>
 <li>
   <a href="participants.html">
     <span class="ion ion-ios-person"></span>
      
-    Workshop Participants
+    Participantes
   </a>
 </li>
 <li>
   <a href="keynotes.html">
     <span class="ion ion-ios-person"></span>
      
-    Keynote Speakers
+    Palestrantes
   </a>
 </li>
 <li>
   <a href="programs.html">
     <span class="ion ion-hammer"></span>
      
-    Program
-  </a>
-</li>
-<li>
-  <a href="reports.html">
-    <span class="ion ion-hammer"></span>
-     
-    Workshop Reports
+    Programa
   </a>
 </li>
       </ul>
@@ -297,36 +294,51 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Organizing Committee</h1>
+<h1 class="title toc-ignore">Comitê Organizador</h1>
 
 </div>
 
 
+</h3>
+</body>
+<p><img src="images/crab.jpeg" width="1000px"/></p>
 <body>
-<h2>
+<p><br> <br></p>
+<body>
+<h3>
+<div id="redes-participantes" class="section level2">
+<h2><strong>Redes Participantes</strong></h2>
 <ul>
-<li><a href="https://www.gfz-potsdam.de/en/staff/esteban-acevedo-trejos/sec47/">Esteban Acevedo-Trejos - GFZ Helmholtz Centre Potsdam</a></li>
-<li><a href="https://cra002.scrippsprofiles.ucsd.edu/">Clarissa Anderson - SCCOOS</a></li>
-<li><a href="https://jaseeverett.github.io/">Jason Everett - U. Queensland</a></li>
-<li><a href="https://www.gmri.org/our-approach/staff/maria-grigoratou/">Maria Grigoratou - GMRI</a></li>
-<li><a href="https://www.uib.no/en/persons/Christian.Lindemann">Chris Lindemann - U. Bergen</a></li>
-<li><a href="https://www.aoml.noaa.gov/oced-staff/">Enrique Montes - NOAA AOML</a></li>
-<li><a href="https://www.usf.edu/marine-science/faculty/faculty-directory/biological-oceanography/frank-muller-karger.aspx">Frank Muller- Karger - U. South Florida</a></li>
-<li><a href="https://www.researchgate.net/profile/Artur-Palacz">Artur Palacz - IOCCP</a></li>
-<li><a href="https://www.geomar.de/fprowe">Fi Prowe - GEOMAR</a></li>
-<li><a href="https://centroincar.cl/en/2020/06/24/dr-renato-quinones-bergeret/">Renato Quinones - INACR</a></li>
-<li><a href="https://mathmarecol.github.io/">Anthony Richardson - U. Queensland &amp; CSIRO</a></li>
-<li><a href="https://umaine.edu/marine/people/jeffrey-runge/">Jeffrey Runge - U. Maine</a></li>
-<li><a href="https://www.uib.no/en/persons/Selina.V%C3%A5ge">Selina Vage - U. Bergen</a></li>
-<li><a href="https://uppeople.ethz.ch/MeikeVogt/">Meike Vogt - ETH Zürich</a></li>
-<li><a href="https://orcid.org/0000-0002-3499-8433">Soultana Zervoudaki - Hellenic Center for Marine Research</a></li>
+<li><a href="https://bentos.ufes.br/">Grupo de Ecologia Bêntica,
+UFES</a></li>
+<li>PELD Habitats Costeiros do Espírito Santo (<a
+href="https://bentos.ufes.br/conteudo/peld-coastal-habitats-esp%C3%ADrito-santo-peld-hces">PELD
+HCES</a>)</li>
+<li>Ocean Biodiversity Information System (<a
+href="https://obis.org/">OBIS</a>) Nó Brasil</li>
+<li>Marine Biodiversity Observation Network Pole to Pole of the Americas
+(<a href="https://marinebon.org/p2p/index.html">MBON Pole to
+Pole</a>)</li>
 </ul>
-<h2>
+</div>
+<div id="organizadores" class="section level2">
+<h2><strong>Organizadores</strong></h2>
+<ul>
+<li><a href="https://bentos.ufes.br/">Ana Carolina de Azevedo Mazzuco -
+Gerente de dados OBIS (Nodo Brasil); Bentos/UFES</a></li>
+<li><a href="https://bentos.ufes.br/">Angelo Fraga Bernardino -
+Coordenador PELD HCES; Bentos/UFES</a></li>
+<li><a href="https://www.aoml.noaa.gov/oced-staff/">Enrique Montes -
+UM/CIMAS &amp; NOAA AOML</a>
+<!-- - [Frank Muller- Karger - U. South Florida](https://www.usf.edu/marine-science/faculty/faculty-directory/biological-oceanography/frank-muller-karger.aspx) --></li>
+</ul>
+<h3>
 </body>
 <p><br></p>
+</div>
 
 <div class="footer text-center">
-  © 2021 <img width="100px" src="images/mbon.jpg"/>
+  © 2022 <img width="100px" src="images/mbon.jpg"/>
 </div>
 
 

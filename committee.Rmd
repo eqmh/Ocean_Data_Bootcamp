@@ -1,31 +1,38 @@
 ---
-title: "Organizing Committee"
+title: "Comitê Organizador"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F, message = F, warning = F)
 ```
+
+</h3>
+
+</body>
+
+<img src="images/crab.JPEG" width="1000px"/>
+
 <body>
 
-<h2>
+<br> <br>
 
-- [Esteban Acevedo-Trejos - GFZ Helmholtz Centre Potsdam](https://www.gfz-potsdam.de/en/staff/esteban-acevedo-trejos/sec47/)
-- [Clarissa Anderson - SCCOOS](https://cra002.scrippsprofiles.ucsd.edu/)
-- [Jason Everett - U. Queensland](https://jaseeverett.github.io/)
-- [Maria Grigoratou - GMRI](https://www.gmri.org/our-approach/staff/maria-grigoratou/)
-- [Chris Lindemann - U. Bergen](https://www.uib.no/en/persons/Christian.Lindemann)
-- [Enrique Montes - NOAA AOML](https://www.aoml.noaa.gov/oced-staff/)
-- [Frank Muller- Karger - U. South Florida](https://www.usf.edu/marine-science/faculty/faculty-directory/biological-oceanography/frank-muller-karger.aspx)
-- [Artur Palacz - IOCCP](https://www.researchgate.net/profile/Artur-Palacz)
-- [Fi Prowe - GEOMAR](https://www.geomar.de/fprowe)
-- [Renato Quinones - INACR](https://centroincar.cl/en/2020/06/24/dr-renato-quinones-bergeret/)
-- [Anthony Richardson - U. Queensland & CSIRO](https://mathmarecol.github.io/)
-- [Jeffrey Runge - U. Maine](https://umaine.edu/marine/people/jeffrey-runge/)
-- [Selina Vage - U. Bergen](https://www.uib.no/en/persons/Selina.V%C3%A5ge)
-- [Meike Vogt - ETH Zürich](https://uppeople.ethz.ch/MeikeVogt/)
-- [Soultana Zervoudaki - Hellenic Center for Marine Research](https://orcid.org/0000-0002-3499-8433)
+<body>
 
-<h2>
+<h3>
+
+## **Redes Participantes**
+- [Grupo de Ecologia Bêntica, UFES](https://bentos.ufes.br/)
+- PELD Habitats Costeiros do Espírito Santo ([PELD HCES](https://bentos.ufes.br/conteudo/peld-coastal-habitats-esp%C3%ADrito-santo-peld-hces))
+- Ocean Biodiversity Information System ([OBIS](https://obis.org/)) Nó Brasil
+- Marine Biodiversity Observation Network Pole to Pole of the Americas ([MBON Pole to Pole](https://marinebon.org/p2p/index.html))
+
+## **Organizadores**
+- [Ana Carolina de Azevedo Mazzuco - Gerente de dados OBIS (Nodo Brasil); Bentos/UFES](https://bentos.ufes.br/)
+- [Angelo Fraga Bernardino - Coordenador PELD HCES; Bentos/UFES](https://bentos.ufes.br/)
+- [Enrique Montes - UM/CIMAS & NOAA AOML](https://www.aoml.noaa.gov/oced-staff/)
+<!-- - [Frank Muller- Karger - U. South Florida](https://www.usf.edu/marine-science/faculty/faculty-directory/biological-oceanography/frank-muller-karger.aspx) -->
+
+<h3>
 
 </body>
 

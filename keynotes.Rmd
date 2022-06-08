@@ -10,10 +10,15 @@ library(knitr)
 ```
 
 ## Palestrantes Convidados - em construção
+</h3>
+
+</body>
 
 <img src="images/speakers.PNG" width="1000px"/>
-<br>
-<br>
+
+<body>
+
+<br> <br>
 
 ```{r}
 read_excel("docs/Affiliation_and_website.xlsx") %>%

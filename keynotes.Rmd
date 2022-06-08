@@ -9,12 +9,12 @@ library(readxl)
 library(knitr)
 ```
 
-## Palestrantes Convidados - em construção
+## Palestrantes Convidados
 </h3>
 
 </body>
 
-<img src="images/speakers.PNG" width="1000px"/>
+<img src="images/speakers.jpg" width="1000px"/>
 
 <body>
 

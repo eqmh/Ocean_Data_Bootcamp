@@ -11,7 +11,7 @@ library(knitr)
 
 ## Palestrantes Convidados - em construção
 
-<img src="images/speakers.JPEG" width="1000px"/>
+<img src="images/speakers.PNG" width="1000px"/>
 <br>
 <br>
 

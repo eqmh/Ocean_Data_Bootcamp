@@ -9,13 +9,13 @@ library(readxl)
 library(knitr)
 ```
 
-## Palestrantes Convidados (alfabeticamente) - em construção
+## Palestrantes Convidados - em construção
 
-<img src="images/mangroves.JPEG" width="1000px"/>
+<img src="images/speakers.JPEG" width="1000px"/>
 <br>
 <br>
 
 ```{r}
-# read_excel("docs/Affiliation_and_website.xlsx") %>%
-#   kable()
+read_excel("docs/Affiliation_and_website.xlsx") %>%
+  kable()
 ```

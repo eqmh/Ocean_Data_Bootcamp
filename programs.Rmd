@@ -9,7 +9,7 @@ editor_options:
 knitr::opts_chunk$set(echo = F, message = F, warning = F)
 ```
 
-</h3>
+  </h3>
 
 </body>
 
@@ -48,6 +48,8 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F)
 -   Exercício prático com análise de bigdata com imagens  marinhas e eDNA. 
 -   Monitoramento costeiro no setor privado e ciência cidadã e incorporação de avanços científicos. 
 -   Ampliação do alcance e usuários. <br> <br>
+
+**A agenda detalhada está disponível [aqui](OceanDataBootcamp_Agenda.pdf)**
 
 <h2>
 

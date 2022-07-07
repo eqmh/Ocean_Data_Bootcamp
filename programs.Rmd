@@ -24,32 +24,30 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F)
 ## **11 de julho**
 
 -   Protocolos de monitoramento costeiro - implementação,  manutenção, articulação de rede de colaboradores e produtos.
--   Exercício prático para desenvolvimento de fluxo de dados do  campo à nuvem (metodologia [MBON Pole to Pole](https://marinebon.org/p2p/index.html)). 
 -   Redes de observação marinhas.  
--   Sínteses da biodiversidade e biogeografia. <br> <br>
+-   Exercício prático para desenvolvimento de fluxo de dados do  campo à nuvem (metodologia [MBON Pole to Pole](https://marinebon.org/p2p/index.html)). <br> <br>
 
 ## **12 de julho** 
 
 -   Sistemas digitais e ferramentas de gestão de dados do  oceano e da biodiversidade marinha - planejamento, curadoria, controle de  qualidade, armazenamento, análise e visualização de dados.
 -   Exercício prático sobre o uso do esquema Darwin Core para  padronização de séries temporais de biodiversidade marinha e uso dos pipelines do  OBIS para compartilhamento e análise de dados da biodiversidade marinha.
--   Gestão de bancos de dados do Oceano. 
+-   Sínteses da biodiversidade e biogeografia. 
 -   Desafios da digitalização. <br> <br>
 
 ## **13 de julho**
 
--   Bancos de dados de sensoriamento remoto por satélite -  caracterização costeira, classificação de paisagens marinhas e previsões.
--   Exercício prático para obtenção de séries de dados do oceano  em plataformas geoespaciais e de sensoriamento remoto por satélite. 
+-   Bancos de dados de sensoriamento remoto por satélite e drones - caracterização costeira, monitoramento de espécies, classificação de paisagens marinhas e previsões.
+-   Exercício prático para obtenção de séries de dados do oceano  em plataformas geoespaciais e de sensoriamento remoto por satélite.
 -   Aplicações de produtos de sensoriamento remoto por satélite para  monitoramento e conservação. 
 -   Indicadores ecossistêmicos e climáticos para tomada de decisão. <br> <br>
 
 ## **14 de julho**
 
--   Automatização da análise de dados e imagens por  aplicações digitais de machine learning e códigos abertos.
--   Exercício prático com análise de bigdata com imagens  marinhas e eDNA. 
--   Monitoramento costeiro no setor privado e ciência cidadã e incorporação de avanços científicos. 
--   Ampliação do alcance e usuários. <br> <br>
+-   Aobtenção de séries de dados do oceano em plataformas geoespaciais e de sensoriamento remoto por satélite. Google Earth Engine / Machine Learning.
+-   Monitoramento costeiro no setor público-privado e ciência cidadã. 
+-   Apresentações dos participantes. <br> <br>
 
-**A agenda detalhada está disponível [aqui](OceanDataBootcamp_Agenda.pdf)**
+**A agenda detalhada está disponível [aqui](Ocean Data Bootcamp 2022 - FINAL Agenda .pdf)**
 
 <h2>
 

@@ -1,5 +1,5 @@
 ---
-title: "Palestrantes"
+title: "Palestrantes Convidados"
 ---
 
 ```{r setup, include=FALSE}
@@ -9,7 +9,7 @@ library(readxl)
 library(knitr)
 ```
 
-## Palestrantes Convidados
+
 </h3>
 
 </body>

@@ -1,5 +1,5 @@
 ---
-title: "Participantes"
+title: "Lista de Participantes"
 ---
 
 ```{r setup, include=FALSE}
@@ -9,7 +9,6 @@ library(readxl)
 library(knitr)
 ```
 
-## Lista de Participantes (alfabeticamente) - em construção
 
 </h3>
 
@@ -22,7 +21,7 @@ library(knitr)
 <br> <br>
 
 ```{r}
-# read_excel("docs/participants_Nov2020.xlsx") %>%
-#   kable()
+read_excel("docs/participantes.xlsx") %>%
+  kable()
 ```
 

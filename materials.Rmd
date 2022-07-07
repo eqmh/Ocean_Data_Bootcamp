@@ -21,6 +21,7 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F)
 
 <br> <br>
 
+
 ## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)**
 
 <br> <br>

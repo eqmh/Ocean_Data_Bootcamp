@@ -7,22 +7,35 @@ output: html_document
 knitr::opts_chunk$set(echo = F, message = F, warning = F)
 ```
 
-# **Todas as apresentações e os materiais do treinamento do Ocean Data Bootcamp estão disponívels aquí:** <br> <br>
+# **Todos os materiais do treinamento e as apresentações do Ocean Data Bootcamp estão disponívels aquí:** <br> <br>
 
-## Script para obtenção de séries de dados de sensoriamento remoto por satélite disponívels no ERDDAP - SST and Chl-a.
+## Tutorial para transformar dados de monitoramento de biodiversidade de litoral rochoso a Darwin Core.
+
+```{r, echo = F, message = F, warning = F}
+if (!require(librarian)){
+  install.packages("librarian")
+  library(librarian)
+}
+shelf(vembedr)
+embed_youtube("teJhfsSWonE", width = 910, height = 910*360/640, frameborder = 0,
+  allowfullscreen = TRUE, query = NULL)
+```
+<br> <br>
+
+## Script para obtenção de séries de dados de sensoriamento remoto por satélite disponívels no [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html) - [SST](https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41mday.html) and [Chl-a](https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day.html).
 
 <iframe src="sat_CostaDasAlgas_Rscript.html" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <br> <br>
 
-## Script para obtenção de séries de dados de sensoriamento remoto por satélite disponívels no ERDDAP - Paisagens marinhas (seascapes).
+## Script para obtenção de séries de dados de sensoriamento remoto por satélite disponívels no [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html) - Paisagens marinhas ([seascapes](https://coastwatch.noaa.gov/cw/satellite-data-products/multi-parameter-models/seascape-pelagic-habitat-classification.html)).
 
-<iframe src="seascapes_CostaDasAlgas_Rscript.html" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-<br> <br>
-
-
-## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)**
+<iframe src="seascapes_CostaDasAlgas_RScript.html" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 <br> <br>
+
+
+<!-- ## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)** -->
+
+
 

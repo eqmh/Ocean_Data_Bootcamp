@@ -7,10 +7,10 @@ navbar:
       icon: ion-android-home
       href: index.html
     - text: "Comitê Organizador"
-      icon: ion-ios-people
+      icon: ion-ios-eye
       href: committee.html
     - text: "Participantes"
-      icon: ion-ios-person
+      icon: ion-ios-people
       href: participants.html
     - text: "Palestrantes"
       icon: ion-ios-person
@@ -18,6 +18,9 @@ navbar:
     - text: "Programa"
       icon: ion-hammer
       href: programs.html
+    - text: "Materiais do Workshop"
+      icon: ion-compass
+      href: materials.html
     # - text: "Workshop Reports"
     #   icon: ion-hammer
     #   href: reports.html

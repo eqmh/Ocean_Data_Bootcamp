@@ -1,0 +1,27 @@
+---
+title: "Materiais do Workshop"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+```
+
+# **Todas as apresentações e os materiais do treinamento do Ocean Data Bootcamp estão disponívels aquí:** <br> <br>
+
+## Script para obtenção de séries de dados de sensoriamento remoto por satélite disponívels no ERDDAP - SST and Chl-a.
+
+<iframe src="sat_CostaDasAlgas_Rscript.html" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<br> <br>
+
+## Script para obtenção de séries de dados de sensoriamento remoto por satélite disponívels no ERDDAP - Paisagens marinhas (seascapes).
+
+<iframe src="seascapes_CostaDasAlgas_Rscript.html" width="760" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<br> <br>
+
+## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)**
+
+<br> <br>
+

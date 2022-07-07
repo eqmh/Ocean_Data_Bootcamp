@@ -34,7 +34,7 @@ embed_youtube("teJhfsSWonE", width = 910, height = 910*360/640, frameborder = 0,
 
 <br> <br>
 
-
+## **As apresentações do workshop estaram disponívels cedo**
 <!-- ## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)** -->
 
 

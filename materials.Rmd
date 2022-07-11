@@ -34,6 +34,12 @@ embed_youtube("teJhfsSWonE", width = 910, height = 910*360/640, frameborder = 0,
 
 <br> <br>
 
+## Script para obtenção de séries de dados de sensoriamento remoto por satélite disponívels no [Google Earth Engine](https://earthengine.google.com/) - O script de exemplo para análise de vegetação está disponível [aqui](https://code.earthengine.google.com/15f9a2967d9c7c84f77b7e67a5c3b7b9)
+
+<img src="images/imageGEE.png" width="1000px"/>
+
+<br> <br>
+
 ## **As apresentações do workshop estaram disponívels cedo**
 <!-- ## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)** -->
 

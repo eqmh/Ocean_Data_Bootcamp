@@ -47,7 +47,7 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F)
 -   Monitoramento costeiro no setor público-privado e ciência cidadã. 
 -   Apresentações dos participantes. <br> <br>
 
-**A agenda detalhada está disponível [aqui](Ocean Data Bootcamp 2022 - FINAL Agenda .pdf)**
+**A agenda detalhada está disponível [aqui](Ocean Data Bootcamp 2022 - FINAL Agenda_v2.pdf)**
 
 <h2>
 

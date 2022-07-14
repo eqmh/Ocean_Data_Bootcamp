@@ -59,7 +59,6 @@ embed_youtube("pRVM0x_d0tA", width = 910, height = 910*360/640, frameborder = 0,
 ```
 <br> <br>
 
-mygsAakg9X4
 
 ## **A apresentação sobre indicadores de ecosistema e clima:**
 

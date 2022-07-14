@@ -14,7 +14,7 @@ library(knitr)
 
 </body>
 
-<img src="images/divers.JPEG" width="1000px"/>
+<img src="images/participants.jpg" width="1000px"/>
 
 <body>
 

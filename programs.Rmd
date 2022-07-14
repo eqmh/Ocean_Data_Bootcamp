@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F)
 
 </body>
 
-<img src="images/survey.JPEG" width="1000px"/>
+<img src="images/training.jpg" width="1000px"/>
 
 <body>
 

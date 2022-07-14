@@ -29,7 +29,7 @@ knitr::opts_chunk$set(echo = F, message = F, warning = F, fig.width=9.5, fig.hei
 
 </body>
 
-<img src="images/school.JPEG" width="1000px"/>
+<img src="images/vitoria.jpg" width="1000px"/>
 
 <body>
 

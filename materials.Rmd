@@ -38,10 +38,28 @@ embed_youtube("teJhfsSWonE", width = 910, height = 910*360/640, frameborder = 0,
 
 <img src="images/imageGEE.png" width="1000px"/>
 
+## Outros exemplos de GEE:
+https://code.earthengine.google.com/a4953ea9f91988c3027d669264a3d2d6
+https://code.earthengine.google.com/a1e4f4088979979d43b8ac0d95040a73
+https://code.earthengine.google.com/4643fe4e6a91dca7e4878700c1078e69
+https://code.earthengine.google.com/90c60baf398222d0b9147cfe204f769b
+
 <br> <br>
 
-## **As apresentações do workshop estaram disponívels cedo**
-<!-- ## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)** -->
+## **Mais informação sobre SCOR aqui**
+
+```{r, echo = F, message = F, warning = F}
+if (!require(librarian)){
+  install.packages("librarian")
+  library(librarian)
+}
+shelf(vembedr)
+embed_youtube("pRVM0x_d0tA", width = 910, height = 910*360/640, frameborder = 0,
+  allowfullscreen = TRUE, query = NULL)
+```
+<br> <br>
+
+## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)**
 
 
 

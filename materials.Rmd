@@ -59,6 +59,21 @@ embed_youtube("pRVM0x_d0tA", width = 910, height = 910*360/640, frameborder = 0,
 ```
 <br> <br>
 
+mygsAakg9X4
+
+## **A apresentação sobre indicadores de ecosistema e clima:**
+
+```{r, echo = F, message = F, warning = F}
+if (!require(librarian)){
+  install.packages("librarian")
+  library(librarian)
+}
+shelf(vembedr)
+embed_youtube("uKz60V0RGXo", width = 910, height = 910*360/640, frameborder = 0,
+  allowfullscreen = TRUE, query = NULL)
+```
+<br> <br>
+
 ## **As apresentações do workshop estāo disponívels [aqui](https://github.com/eqmh/Ocean_Data_Bootcamp/tree/main/docs/presentations)**
 
 
